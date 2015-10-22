@@ -1,0 +1,80 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+.headline {
+	text-align:center;
+	margin-top:15px;
+}
+
+.headline h1  {
+	margin-left:15px;
+	margin-right:15px;
+}
+
+
+.instructions  {
+	text-align:center;
+	margin-bottom:15px;
+}
+
+.instructions h3  {
+	margin-top:0;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+.well {
+	overflow:hidden;
+}
+
+.img-container {
+    position: relative;
+    list-style: none;
+    cursor: move;
+    webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+#img-grid {
+	margin:0;
+	padding:0;
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+	.img {
+	    width: 48%;
+		margin:1%;
+	    height: auto;
+	    float: left;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+	.img {
+	    width: 31%;
+		margin:1%;
+	    height: auto;
+	    float: left;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) & Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) {
+	.img {
+	    width: 23%;
+		margin:1%;
+	    height: auto;
+	    float: left;
+	}
+}
